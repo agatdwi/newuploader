@@ -1,0 +1,79 @@
+.footer {
+  display: inline-block;
+  width: calc(100% - 40px);
+  max-width: 300px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: #4f46e5;
+  padding: 0.5rem;
+  text-align: center;
+  color: #fff;
+  transition: background-color 0.3s;
+  border-radius: 50px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #d9e2ec;
+}
+
+.neu-container {
+  background-color: rgba(249, 250, 251, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.neu-container:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 7px 14px rgba(0, 0, 0, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.neu-button {
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: bold;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.neu-button:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 7px 14px rgba(0, 0, 0, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+svg {
+  fill: gray;
+  transition: transform 0.3s;
+}
+
+svg path {
+  d: path("M0 0 L20 0 L10 20 Z");
+}
+
+svg:hover {
+  fill: #ffffe0;
+  transform: translateY(2px);
+}

@@ -1,0 +1,33 @@
+{
+  "name": "agt_uploader",
+  "version": "0.0.0",
+  "description": "File uploader simple created with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "File Uploader",
+    "AGT Uploader",
+    "Uploader",
+    "Source Code"
+  ],
+  "author": "AgatZ",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.3",
+    "express-openapi-validator": "^5.1.6",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.1.1",
+    "node-fetch": "^3.2.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "sweetalert2": "^11.10.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agatdwi/newuploader"
+  },
+  "homepage": "https://uploaderagt.my.id"
+}
